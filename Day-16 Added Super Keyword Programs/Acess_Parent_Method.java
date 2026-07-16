@@ -1,25 +1,10 @@
-class Animal{
-    void sound(){
-        System.out.println("Animals makes sounds");
-    }
-}
-class Dog extends Animal{
-    void sound(){
-        System.out.println("Dog bars");
-    }
-    void dubby(){
-        super.sound();
-    }
-
-}
+/*
+ * Decompiled with CFR 0.152.
+ */
 public class Acess_Parent_Method {
-    public static void main(String args[]){
-
-    
-    Dog d = new Dog();
-    d.dubby();
-    d.sound();
+    public static void main(String[] stringArray) {
+        Dog dog = new Dog();
+        dog.dubby();
+        dog.sound();
     }
-
-    
 }
