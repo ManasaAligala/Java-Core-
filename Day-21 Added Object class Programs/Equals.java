@@ -6,6 +6,8 @@ public class Equals {
             System.out.println("References are equal");
         }else{
             System.out.println("References are not always equal");
+        
         }
+        System.out.println("References are not always equal");
     }
 }
